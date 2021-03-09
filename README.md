@@ -16,7 +16,7 @@ Unfortunately, the application's UI is in Romanian.
  - Keeps track of all the macro-nutrients of a food 
  (You may also add a new food through a secondary dialog)
  
- - ![addFoodImage](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/addFood.png?raw=true)
+ ![addFoodImage](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/addFood.png?raw=true)
  
  -Adding a new Brunch for the current day (as long as the textbox with the label"Alege gramaj" is not empty)
  
