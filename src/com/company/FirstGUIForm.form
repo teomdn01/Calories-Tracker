@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.FirstGUIForm">
+  <grid id="27dc6" binding="panelFirst" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1180" height="430"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="4ffcc" class="javax.swing.JButton" binding="btn2">
+        <constraints>
+          <grid row="1" column="3" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Grafic greutate"/>
+        </properties>
+      </component>
+      <grid id="2f343" binding="panelAdauga" layout-manager="GridLayoutManager" row-count="4" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5e1a" class="javax.swing.JTable" binding="tableFood">
+            <constraints>
+              <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <scrollpane id="e0a0d" binding="jspFood">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="9" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </scrollpane>
+          <component id="e5c76" class="javax.swing.JButton" binding="btnAmMancat">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Am mancat!"/>
+            </properties>
+          </component>
+          <component id="fc7a9" class="javax.swing.JLabel" binding="lblMancare">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Alege Mancare"/>
+            </properties>
+          </component>
+          <component id="df6e2" class="javax.swing.JLabel" binding="lblGramaj">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Alege gramaj"/>
+            </properties>
+          </component>
+          <component id="ab255" class="javax.swing.JTextField" binding="txtAlegeMancare">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="171" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ecf4f" class="javax.swing.JTextField" binding="txtAlegeGreutate">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="171" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="f9ae4" binding="panelRetineMancare" layout-manager="GridLayoutManager" row-count="3" column-count="14" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a95c0" class="javax.swing.JTable" binding="tableRetineZi">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <scrollpane id="7f2ed" binding="jspRetineZi">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </scrollpane>
+          <component id="7d978" class="javax.swing.JLabel" binding="lblProteins">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Proteine:"/>
+            </properties>
+          </component>
+          <component id="a3980" class="javax.swing.JLabel" binding="lblFats">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Grasimi:"/>
+            </properties>
+          </component>
+          <component id="341d3" class="javax.swing.JLabel" binding="lblCarbs">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Carbohidrati"/>
+            </properties>
+          </component>
+          <component id="7bfe4" class="javax.swing.JLabel" binding="lblKcal">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Total Calorii:"/>
+            </properties>
+          </component>
+          <component id="dd042" class="javax.swing.JLabel" binding="lblTotalProteine">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="3eec2" class="javax.swing.JLabel" binding="lblTotalGrasimi">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="4c3c9" class="javax.swing.JLabel" binding="lblTotalCarbs">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="22154" class="javax.swing.JLabel" binding="lblTotalKcal">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="26ccb" class="javax.swing.JButton" binding="btnTerminaZi">
+            <constraints>
+              <grid row="0" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Termina Zi"/>
+            </properties>
+          </component>
+          <component id="db809" class="javax.swing.JButton" binding="btnShowBMRChart">
+            <constraints>
+              <grid row="0" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Grafic deficit"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="bd9ab" class="javax.swing.JButton" binding="btnNewFood">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="2" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fel de mancare nou"/>
+        </properties>
+      </component>
+      <component id="345de" class="javax.swing.JButton" binding="btnBMR">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calculeaza-ti metabolismul"/>
+        </properties>
+      </component>
+      <component id="6a134" class="javax.swing.JButton" binding="btnInsereazaInGrafic">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Adauga greutatea de astazi"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
