@@ -16,7 +16,7 @@ Unfortunately, the application's UI is in Romanian.
 
 ![mainMenu](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/mainMenu.png?raw=true)
 
-Features:
+##Features:
 - Keeps track of all the macro-nutrients of a food
  (You may also add a new food through a secondary dialog)
 
@@ -34,6 +34,6 @@ Features:
 
  ![weightChartImage](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/weightChart.png?raw=true)
 
- #Functionalities TO BE IMPLEMENTED:
- -Deleting a food from the table
+##Functionalities TO BE IMPLEMENTED:
+ - Deleting a food from the table
  - Creating layered architecture (separating the user interface and the functionalities)
