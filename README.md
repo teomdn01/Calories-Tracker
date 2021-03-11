@@ -16,24 +16,24 @@ Unfortunately, the application's UI is in Romanian.
 
 ![mainMenu](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/mainMenu.png?raw=true)
 
-##Features:
+## Features:
 - Keeps track of all the macro-nutrients of a food
  (You may also add a new food through a secondary dialog)
 
  ![addFoodImage](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/addFood.png?raw=true)
 
- -Adding a new Brunch for the current day (as long as the textbox with the label"Alege gramaj" is not empty)
+ - Adding a new Brunch for the current day (as long as the textbox with the label"Alege gramaj" is not empty)
 
  ![addBrunchImage](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/addBrunch.png?raw=true)
 
- -You can also keep track of the deficit/excess of the calories
+ - You can also keep track of the deficit/excess of the calories
 
  ![caloriesChartImage](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/caloriesChart.png?raw=true)
 
- -And also a chart for your weight loss/gain
+ - And also a chart for your weight loss/gain
 
  ![weightChartImage](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/weightChart.png?raw=true)
 
-##Functionalities TO BE IMPLEMENTED:
+## Functionalities TO BE IMPLEMENTED:
  - Deleting a food from the table
  - Creating layered architecture (separating the user interface and the functionalities)
