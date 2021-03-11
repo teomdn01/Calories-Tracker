@@ -13,7 +13,7 @@ Interface and SQLite database.
 Unfortunately, the application's UI is in Romanian.
 
 ## Functionalities TO BE IMPLEMENTED:
- - Deleting a food from the table
+ - Deleting types of food from the table
  - Creating layered architecture (separating the user interface and the functionalities)
 
 ## Preview of the main menu:
