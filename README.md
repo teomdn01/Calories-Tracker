@@ -16,7 +16,7 @@ Unfortunately, the application's UI is in Romanian.
  - Deleting a food from the table
  - Creating layered architecture (separating the user interface and the functionalities)
 
-- Preview of the main menu:
+## Preview of the main menu:
 
 ![mainMenu](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/mainMenu.png?raw=true)
 
