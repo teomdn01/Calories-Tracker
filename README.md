@@ -3,7 +3,7 @@
 Dependencies:
 sqlite-jdbc-3.34.0
 
-You can install it through maven libraries
+Install it through maven libraries
 (Project structure -> libraries -> Maven -> search for sqlite-jdbc-3.34.0)
 
 
@@ -11,6 +11,10 @@ Daily Calories Tracker is a basic Java app I created during highschool, using SW
 Interface and SQLite database.
 
 Unfortunately, the application's UI is in Romanian.
+
+## Functionalities TO BE IMPLEMENTED:
+ - Deleting a food from the table
+ - Creating layered architecture (separating the user interface and the functionalities)
 
 - Preview of the main menu:
 
@@ -33,7 +37,3 @@ Unfortunately, the application's UI is in Romanian.
  - And also a chart for your weight loss/gain
 
  ![weightChartImage](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/weightChart.png?raw=true)
-
-## Functionalities TO BE IMPLEMENTED:
- - Deleting a food from the table
- - Creating layered architecture (separating the user interface and the functionalities)
