@@ -12,12 +12,12 @@ Interface and SQLite database.
 
 Unfortunately, the application's UI is in Romanian.
 
--Preview of the main menu:
+- Preview of the main menu:
 
 ![mainMenu](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/mainMenu.png?raw=true)
 
-#Features:
- - Keeps track of all the macro-nutrients of a food
+##Features:
+- Keeps track of all the macro-nutrients of a food
  (You may also add a new food through a secondary dialog)
 
  ![addFoodImage](https://github.com/teomdn01/Calories-Tracker/blob/main/Readme%20IMAGES/addFood.png?raw=true)
