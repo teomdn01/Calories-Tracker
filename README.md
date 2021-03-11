@@ -36,3 +36,4 @@ Features:
 
  #Functionalities TO BE IMPLEMENTED:
  -Deleting a food from the table
+ - Creating layered architecture (separating the user interface and the functionalities)
